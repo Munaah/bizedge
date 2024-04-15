@@ -21,7 +21,7 @@ export const Accordion = ({title, content}) => {
         <div style={{display: 'flex', gap: 6, justifyContent: "space-between", cursor: "pointer", padding: "10px"}} onClick={toggleAcord}>
         <Typography color={"#2898A4"}>{title}</Typography>
         
-        {isOpen ? <Typography>👆🏾</Typography> : <Typography>👇🏾</Typography>}
+        {isOpen ? <Typography color={"#2898A4"}><i className="fa-solid fa-chevron-up"></i></Typography> : <Typography color={"#2898A4"}><i className="fa-solid fa-chevron-down"></i></Typography>}
         </div>
       
         {isOpen && <Typography color={"black"} sx={{display: "flex", padding: "10px", height: "full"}}>{content}</Typography>}

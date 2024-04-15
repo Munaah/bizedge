@@ -260,7 +260,6 @@ function App() {
               <Accordion title={"Accounting - Expenditure"} content={"Blah blah blah"}/>
               <Accordion title={"Accounting - Contacts"} content={"Blah blah blah"}/>
               <Accordion title={"Accounting - Inventory"} content={"Blah blah blah"}/>
-              <Accordion title={"Time and Attendance Management"} content={"Blah blah blah"}/>
               <Accordion />
               </Container>
 

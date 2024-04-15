@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "blackSans";   /*Can be any text*/
+    src: local("blackSans"),
+      url("./Fonts/blacksanslightwebfont.woff") format("woff");
+  }
